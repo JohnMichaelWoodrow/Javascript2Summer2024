@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>CNA RAIL SYSTEM</h1>
+
+    <form id="boxCarForm">
+        <p>
+            <label for="">Box Car ID:</label>
+            <input type ="text" id="boxCarID" name="boxCarID" value="BX500" readonly><br><br>
+        </p>
+        <p>
+            <label for="">Empty Weight:</label>
+            <input type ="text" id="emptyWeight" name="emptyWeight" value="15000" readonly><br><br>
+        </p>
+        <p>
+            <label for="maxWeight">Max Weight:</label>
+            <input type="text" id="maxWeight" name="maxWeight" value="105000" readonly><br><br>
+        </p>
+        <p>
+            <label for="">Total Weight:</label>
+            <input type ="text" id="totalWeight" name="totalWeight" value="0" readonly><br><br>
+        </p>
+        <p>
+            <input type="submit" value="Process Box Car" class="form-button">
+            <input type="reset" value="Reset Form" class="form-button">
+        </p>
+    </form>
+
+    <form id="transportForm">
+        <p>
+            <label for="">Transport ID:</label>
+            <input type ="text" id="transportID" name="transportID" value=""><br><br>
+        </p>
+        <p>
+            <label for="">Description:</label>
+            <input type ="text" id="description" name="description" value=""><br><br>
+        </p>
+        <p>
+            <label for="">Cargo Weight:</label>
+            <input type ="text" id="cargoWeight" name="cargoWeight" value=""><br><br>
+        </p>
+        <p>
+            <input type="submit" value="Process Cargo" id="submitButton" class="form-button">
+            <input type="reset" value="Reset Form" id="resetButton" class="form-button">
+        </p>
+    </form>
+    <script src="main.js" defer></script>
+</body>
+</html>

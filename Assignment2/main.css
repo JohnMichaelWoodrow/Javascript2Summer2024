@@ -1,0 +1,38 @@
+h1{
+    color: blue;
+}
+
+body{
+    width: 50%;
+    border: 3px solid blue;
+    padding: 10px;
+    padding-left: 50px;
+    float: left;
+}
+
+form { 
+    display: table;
+    margin: 10px;
+}
+
+input {
+    display: table-cell;
+    margin: 5px;
+
+}
+
+label {
+    display: table-cell;
+    margin: 5px;
+
+}
+
+p { 
+    display: table-row;
+}
+
+.form-button {
+    display: inline-block;
+    margin-top: 10px;
+}
+
